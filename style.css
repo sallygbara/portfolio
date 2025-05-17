@@ -1,71 +1,179 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     direction: rtl;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: bisque;
-}
-
 header {
-    background-color: bisque;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid yellow;
 }
 
-.container {
-    max-width: 1100px;
-    margin: auto;
+.nav {
+    background: white;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav:hover{
+    color: gold;
+}
+a:hover{
+    background-color:gold;
+    border-radius: 30px;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.menu-checkbox {
+    display:none;
+}
+
+@media(max-width: 550px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: gold;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        padding: 10px;
+        width: 80%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu-checkbox:checked+.menu-toggle+.menu {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 0 20px;
-}
-
-a:hover {
-    color: bisque;
-    padding: 20px 30px;
-    width: 20px;
-    border: 20px;
-}
-
-nav li:hover {
-    background-color: darkmagenta;
+    border: yellow;
 }
 
 
 .logo {
-    font-weight: bold;
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+.logo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
     color: #333;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 
-.container1 {
-    background: white;
-    padding: 60px 0;
+nav ul li a:hover {
+    color: blue;
+    padding: 20px solid yellow;
+    border-radius: 20px;
+}
+
+.part1 {
+    background-image: url(./img/jennifer-kalenberg-SLhuy1zeLsY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    color: white;
 }
 
-.skills {
+.part1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.part2 {
+    position: relative;
+    z-index: 2;
+    font-family: Arial, sans-serif;
+}
+
+.part1 h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.part1 p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.part3 {
     text-align: center;
     padding: 30px 0;
-    background-color: darkmagenta
+    background-color: white
 }
 
-.skills .logos img {
+.part3 .logos img {
     height: 40px;
     margin: 0 10px;
 }
@@ -92,15 +200,15 @@ nav a {
     display: inline;
     margin-top: 20px;
     padding: 10px 20px;
-    background: darkmagenta;
+    background: darkgreen;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: darkmagenta;
-    color: bisque;
+    background-color: gold;
+    color: black;
 }
 
 .projects {
@@ -126,7 +234,8 @@ nav a {
     box-shadow: 30px;
     justify-content: center;
     align-items: center;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card img {
@@ -135,8 +244,8 @@ nav a {
 }
 
 .contact {
-    background: darkmagenta;
-    color: white;
+    background: goldenrod;
+    color: black;
     padding: 40px 20px;
 }
 
@@ -167,7 +276,7 @@ nav a {
 }
 
 .contact button {
-    background: bisque;
+    background: black;
     color: white;
     border: none;
     padding: 10px;
@@ -176,7 +285,7 @@ nav a {
 }
 
 .footer {
-    background: bisque;
+    background: black;
     color: white;
     text-align: center;
     padding: 10px 0;

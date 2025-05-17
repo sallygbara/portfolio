@@ -1,108 +1,123 @@
 <!DOCTYPE html>
-<html lang="he">
+<html lang="he" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <title>תיק עבודות אישי</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="./img/people.png">
 </head>
 
 <body>
-    <header>
+
+    <header class="header">
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-toggle">&#x2630;</label>
 
         <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#">ראשי</a></li>
-                    <li><a href="#about">אודות</a></li>
-                    <li><a href="#projects">עבודות</a></li>
-                    <li><a href="#contact">צור קשר</a></li>
-                </ul>
+            <nav class="menu">
+                <a href="#">ראשי</a>
+                <a href="#about">אודות</a>
+                <a href="#projects">עבודות</a>
+                <a href="#contact">צור קשר</a>
             </nav>
-            <div class="logo"><img src="/img/woman.png" alt=""></div>
 
+            <span>      
+                  <div class="logo">
+                    <span>sally gbara</span>
+                <img src="/img/woman.png" alt="my profile image">
 
-        </div>
+                
+            </div>
     </header>
-    <section class="container1">
-        <h1 style="font-size: 40px;">תיק עבודות</h1>
-        <p style="font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">בורך הבא
-            באתר שלי הראשון <br>מדובר על בנייה שמונה פרויקטים</p>
-    </section>
 
-    <section class="skills">
-        <div class="logos">
-            <img src="/img/img-CSS.png" alt="HTML">
-            <img src="/img/img-HTML.png" alt="CSS">
-            <img src="/img/img-HTML.png" alt="git">
-
+    <section class="part1">
+        <div class="part2">
+            <h1>תיק עבודות </h1>
+            <p> כאן תמצאו את הפרויקטים שלי בעולם בניית האתרים זה אתר <br> ראשון שלי מדובר על בנייה אתר מורכב משמונה
+                פוריקטים על <br>בנייה אתר עסקי על נושא מדובר על טיפול באמנות<br> טיפול בכלים פסיכולוגיים שילדים יטפלו ב
+                צבעים ספרים ומשחקים גם מוסיקה </p>
         </div>
     </section>
 
+    <section class="part3">
+        <div class="logos">
+            <img src="/img/html.png" alt="HTML">
+            <img src="/img/css.png " alt="css">
+            <img src="/img/social.png" alt="git">
+
+        </div>
+    </section>
+    <hr style="border: 15px solid black;">
     <section id="about" class="about">
-        <h2>קצת עלי</h2>
+        <h2 style="font-family: Arial, Helvetica, sans-serif;">קצת עלי</h2>
         <div class="profile">
-            <img src="laptop.png" alt="Profile">
-            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">שמי סאלי בת 22 לומדת
-                מדעי מחשב במכללה מרכז אקדימי משפטים לעסקים <br>גם לומדת בנייה אתרים בהקראין עבודת מכנה הזמנות בסופר </p>
+            <img src="img/laptop.png" alt="Profile">
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">שמי סאלי בת 22
+                לומדת
+                מדעי מחשב במכללה מרכז אקדימי משפטים לעסקים<br> גם לומדת בנייה אתרים בהקרין עבודת הכנה הזמנות אונליין
+            </p>
         </div>
         <br>
-        <a href="#" class="btn">להורדת קורות חיים</a>
+        <a href="קורות חיים סאלי גבארה (1).docx" class="btn">להורדת קורות חיים</a>
     </section>
-
+    <hr style="border: 20px solid black;">
     <section id="projects" class="projects">
         <h2>עבודות נבחרות</h2>
         <div class="project-grid">
             <div class="card ">
-                <img src="images/project1.jpg" alt="פרויקט">
-                <h3>שם הפרויקט</h3>
-                <p>תיאור קצר</p>
-                <a href="index.html" class="btn">לעמוד הפרויקט</a>
+                <img src="" alt="פרויקט">
+                <h3>מדינה ישראל</h3>
+                <p>פוריקט הראשון מדובר על מדינה ישראל <br>על תרבות מקומות לטיול בארץ</p>
+
+                <a href="page1.html" class="btn">לעמוד הפרויקט</a>
             </div>
             <div class="card">
-                <img src="images/project1.jpg" alt="פרויקט">
+                <img src="" alt="פרויקט">
                 <h3>שם הפרויקט</h3>
                 <p>תיאור קצר</p>
-                <a href="index2.html" class="btn">לעמוד הפרויקט</a>
+
+                <a href="page2.html" class="btn">לעמוד הפרויקט</a>
             </div>
             <div class="card">
-                <img src="images/project1.jpg" alt="פרויקט">
+                <img src="" alt="פרויקט">
                 <h3>שם הפרויקט</h3>
-                <p>תיאור קצר</p>
-                <a href="index3.html" class="btn">לעמוד הפרויקט</a>
+                <p>תיאור קצר</p> 
+                <a href="page3.html" class="btn">לעמוד הפרויקט</a>
             </div>
 
             <div class="card">
-                <img src="images/project1.jpg" alt="פרויקט">
+                <img src="" alt="פרויקט">
                 <h3>שם הפרויקט</h3>
                 <p>תיאור קצר</p>
-                <a href="index4.html" class="btn">לעמוד הפרויקט</a>
+                <a href="page4.html" class="btn">לעמוד הפרויקט</a>
             </div>
             <br>
             <div class="card">
-                <img src="images/project1.jpg" alt="פרויקט">
+                <img src="" alt="פרויקט">
                 <h3>שם הפרויקט</h3>
                 <p>תיאור קצר</p>
-                <a href="index5.html" class="btn">לעמוד הפרויקט</a>
+                <a href="page5.html" class="btn">לעמוד הפרויקט</a>
             </div>
             <div class="card">
-                <img src="images/project1.jpg" alt="פרויקט">
+                <img src="" alt="פרויקט">
                 <h3>שם הפרויקט</h3>
                 <p>תיאור קצר</p>
-                <a href="index6.html" class="btn">לעמוד הפרויקט</a>
+                <a href="page6.html" class="btn">לעמוד הפרויקט</a>
             </div>
             <div class="card">
-                <img src="images/project1.jpg" alt="פרויקט">
+                <img src="" alt="פרויקט">
                 <h3>שם הפרויקט</h3>
                 <p>תיאור קצר</p>
-                <a href="index7.html" class="btn">לעמוד הפרויקט</a>
-                <br>
+                <a href="page7.html" class="btn">לעמוד הפרויקט</a>
+
             </div>
             <div class="card">
-                <img src="images/project1.jpg" alt="פרויקט">
+                <img src="img/painting-911804_1280.jpg" alt="פרויקט">
                 <h3>שם הפרויקט</h3>
                 <p>תיאור קצר</p>
-                <a href="index8.html" class="btn">לעמוד הפרויקט</a>
+                <a href="page8.html" class="btn">לעמוד הפרויקט</a>
             </div>
         </div>
     </section>
@@ -129,27 +144,31 @@
         <div class="icons-row">
             <div class="icon-box">
                 <img src="/img/facebook.png" alt="facebook" style="width:30px; height:auto;">
-                <p>Facebook</p>
+                <p>Facebook :sally_gbara</p>
             </div>
             <div class="icon-box">
                 <img src="/img/whatsapp.png" alt="whatsapp" style="width:30px; height:auto;">
-                <p>WhatsApp</p>
+                <p>WhatsApp:0542362373</p>
             </div>
             <div class="icon-box">
                 <img src="/img/linkedin.png" alt="linkedin" style="width:30px; height:auto;">
-                <p>LinkedIn</p>
+                <p>LinkedIn:sally gbara</p>
             </div>
             <div class="icon-box">
                 <img src="/img/instagram.png" alt="instagram" style="width:30px; height:auto;">
-                <p>Instagram</p>
+                <p>Instagram:sallygbara3</p>
             </div>
             <div class="icon-box">
                 <img src="/img/telephone.png" alt="telephone" style="width:30px; height:auto;">
-                <p>Phone</p>
+                <p>Phone:0542362373</p>
             </div>
             <div class="icon-box">
                 <img src="/img/pin.png" alt="location" style="width:30px; height:auto;">
-                <p>Location</p>
+                <p>Location:Tayiba</p>
+            </div>
+            <div class="icon-box">
+                <img src="/img/email.png" alt="email" style="width:30px; height:auto;">
+                <p>Email:sallygbara3@gmail.com</p>
             </div>
         </div>
 
@@ -157,7 +176,7 @@
 
     </footer>
     <div>
-        <p style="background-color: darkmagenta; color: bisque; height: 50px;">כול זוכיות שומרות </p>
+        <p style="background-color:black; color: white; height: 50px;">כול זוכיות שומרות </p>
     </div>
 </body>
 
