@@ -1,5 +1,5 @@
 body {
-    background-color: plum;
+    background-color: gold;
 }
 
 
@@ -9,7 +9,13 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+h2{
+    color: white;
 
+}
+p{
+    color: white;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -28,7 +34,7 @@ body {
     flex-direction: column;
     width: 50%;
     align-items: center;
-    background-color: rgb(173, 202, 255);
+    background-color:darkblue;
     justify-content: center;
     border-radius: 20px;
 
@@ -50,14 +56,14 @@ body {
 
 #submit {
     padding: 10px 30px;
-    background-color: darkturquoise;
+    background-color: goldenrod;
     border: 1px solid black;
     border-radius: 50px;
     text-decoration: none;
 }
 
 #submit:hover {
-    background-color: bisque;
+    background-color: black;
     color: white;
     cursor: pointer;
 
@@ -70,7 +76,7 @@ body {
 }
 
 .form a:hover {
-    color: aquamarine
+    color: white;
 }
 
 .side {
@@ -78,7 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: darkcyan;
+    background-color:white;
     border-radius: 20px;
 }
 

@@ -22,13 +22,16 @@ header {
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-nav:hover{
+
+nav:hover {
     color: gold;
 }
-a:hover{
-    background-color:gold;
+
+a:hover {
+    background-color: gold;
     border-radius: 30px;
 }
+
 .menu {
     display: flex;
     gap: 40px;
@@ -49,7 +52,7 @@ a:hover{
 }
 
 .menu-checkbox {
-    display:none;
+    display: none;
 }
 
 @media(max-width: 550px) {
@@ -218,12 +221,12 @@ nav ul li a:hover {
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
     gap: 20px;
     margin-top: 30px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -234,8 +237,8 @@ nav ul li a:hover {
     box-shadow: 30px;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+    width: 250px;
+
 }
 
 .card img {
