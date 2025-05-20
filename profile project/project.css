@@ -14,16 +14,17 @@ body {
 
 .nav {
     background: white;
-    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     top: 0;
-    z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+.logo{
+    display: flex;
+        align-items: center;
+        gap: 10px;
+}
 a:hover {
     background-color: gold;
     border-radius: 30px;
@@ -48,14 +49,14 @@ a:hover {
 .menu-toggle {
     display: none;
     font-size: 28px;
-    cursor: pointer;
+    margin-left: auto;
 }
 
 .menu-checkbox {
     display: none;
 }
 
-@media(max-width: 550px) {
+@media(max-width: 600px) {
     .menu {
         display: none;
         flex-direction: column;
@@ -66,9 +67,11 @@ a:hover {
         padding: 10px;
         width: 80%;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        z-index: 3;
+        justify-content: space-between;
     }
 
-    .menu-checkbox:checked+.menu-toggle+.menu {
+    .menu-checkbox:checked+.menu {
         display: flex;
     }
 
