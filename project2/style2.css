@@ -1,11 +1,12 @@
 body {
 
-    background: transparent url(/img/b40a4505-fe15-49cd-8d08-8dd4e17ba016.jpg.png) 0% 0% no-repeat padding-box;
+    background: transparent url(/img/b40a4505-fe15-49cd-8d08-8dd4e17ba016.jpg.png) no-repeat;
+    width: 100%;
 }
 
 form {
     top: 157px;
-    left: 1056px;
+    left: 1000px;
     width: 500px;
     height: 430px;
     right: 340px;
