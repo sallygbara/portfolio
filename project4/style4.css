@@ -22,7 +22,6 @@ body {
     color: white;
     background-color: #a21caf;
     text-align: center
-    
 }
 
 img {
@@ -91,10 +90,12 @@ img {
 }
 
 
-button{top: 1874px;
+button {
+    top: 1874px;
     width: 100px;
     height: 40px;
-    background: #0EE1DA 0% 0% no-repeat padding-box;}
+    background: #0EE1DA 0% 0% no-repeat padding-box;
+}
 
 
 @media (max-width: 950px) {
