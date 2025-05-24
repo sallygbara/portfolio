@@ -99,9 +99,10 @@ button {
 
 
 
+
 @media (max-width: 600px) {
     .grid {
-        grid-template-columns:1rch;
+        grid-template-columns: 1fr;
     }
 
     .title-box,
