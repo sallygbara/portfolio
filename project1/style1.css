@@ -1,7 +1,3 @@
-body {
-    background-color: gold;
-}
-
 
 
 * {
@@ -9,6 +5,10 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    background-color: gold;
+}
+
 h2{
     color: white;
 
