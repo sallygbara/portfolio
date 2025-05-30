@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    direction: rtl;
+    background: #fff;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.top-image {
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.form-area {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+p {
+    color: #1e293b;
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 3px;
+    text-align: right;
+}
+
+input,
+textarea {
+    background-color: #e0ecff;
+    border: none;
+    border-bottom: 3px solid darkgreen;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #065f46;
+}
+
+.social-icons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    background-color: darkgreen;
+    padding: 14px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.image-area {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .contact-section {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 3rem;
+    }
+
+    .form-area {
+        text-align: right;
+        max-width: 400px;
+    }
+
+    .input-row {
+        flex-direction: row;
+    }
+
+    .input-group {
+        flex: 1;
+    }
+
+    .image-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-area img {
+        height: auto;
+    }
+
+    .top-image {
+        display: none;
+    }
+}
