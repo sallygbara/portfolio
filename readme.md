@@ -19,14 +19,14 @@
 📁 `page8/` - 8מדובר על תיק של פוריקט 
 
 
-📁 `project1/` -פוריקט הראשון מדובר על מדינה 
-📁 `project2/` - פוריקט השנימדובר על מדינה 
-📁 `project3/` - פוריקט השלישימדובר על מדינה
-📁 `project4/` - פוריקט הרביעי מדובר על מדינה 
-📁 `project5/` - פוריקט חמישי מדובר על מדינה
-📁 `project6/` - פוריקט שישי מדובר על מדינה
-📁 `project7/` - פוריקט שביעי מדובר על מדינה
-📁 `project8/` - פוריקט שמיני מדובר על מדינה 
+📁 `project1/` -  פוריקט הראשון מדובר מידע  לקחת על מדינה ישראל
+📁 `project2/` - פוריקט השנימדובר מידע לקחת על מדינה אמריקה
+📁 `project3/` - פוריקט השלישימדובר מידע לקחת על מדינה בריטניה
+📁 `project4/` - פוריקט הרביעי מדובר מידע לקחת על מדינה צרפת
+📁 `project5/` - פוריקט חמישי מדובר  מידע  לקחת על מדינה סינגפור
+📁 `project6/` - פוריקט שישי מדובר לקחת  מידע על מדינה אוסטרליה 
+📁 `project7/` - פוריקט שביעי מדובר על לקחת למידע מדינה הודו
+📁 `project8/` -  פוריקט שמיני מדובר  קחת לדעת מידע על מדינה 
 
 📁`project1.zip/`:הקובץ לגבי הורדת פוריקט
 📁 `project2.zip/`:הקובץ לגבי הורדת פוריקט

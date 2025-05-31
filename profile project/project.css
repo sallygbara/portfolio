@@ -144,6 +144,24 @@ a:hover {
     align-items: center;
     width: 1500px;
 }
+.image-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border: 5px solid gold;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-frame img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
 .form-image {
     display: flex;
