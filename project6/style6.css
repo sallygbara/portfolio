@@ -1,162 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', sans-serif;
-    direction: rtl;
-    background: #fff;
-}
-
-/* מבנה ראשי */
-.contact-section {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-}
-
-/* תמונה בראש במסכים קטנים */
-.top-image {
-    max-width: 120px;
-    margin: 0 auto 1rem;
-    display: block;
-}
-
-/* אזור טופס */
-.form-area {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.highlight {
-    color: darkgreen;
-    font-weight: bold;
-}
-
-p {
-    color: #1e293b;
-    font-size: 15px;
-    margin-bottom: 1.5rem;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.input-row {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.input-group {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    font-size: 14px;
-    margin-bottom: 3px;
-    text-align: right;
-}
-
-input,
-textarea {
-    background-color: #e0ecff;
-    border: none;
-    border-bottom: 3px solid darkgreen;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-button {
-    background-color: darkgreen;
-    border: none;
-    color: white;
-    font-weight: bold;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #065f46;
-}
-
-.social-icons {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.social-icons a {
-    background-color: darkgreen;
-    padding: 14px;
-    border-radius: 50%;
-    display: flex;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.social-icons img {
-    width: 20px;
-    height: 20px;
-}
-
-/* תמונה בצד (בדסקטופ) */
-.image-area {
-    display: none;
-}
-
-/* עיצוב לדסקטופ */
-@media (min-width: 768px) {
-    .contact-section {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        padding: 3rem;
+body{
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: #fff;
     }
 
-    .form-area {
-        text-align: right;
-        max-width: 400px;
+    .hero {
+        background-image: url('/img/Path\ 15.png');
+        background-size: cover;
+        background-position: center;
+        color: #dff000;
+        text-align: center;
+        padding: 100px 20px;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
     }
 
-    .input-row {
-        flex-direction: row;
+    .hero h1 {
+        font-size: 3em;
+        margin: 0;
     }
 
-    .input-group {
-        flex: 1;
+    .hero p {
+        color: #ccc;
+        margin-top: 10px;
+        font-size: 0.9em;
     }
 
-    .image-area {
+    .form-container {
+        margin-top: 60px;
         display: flex;
         justify-content: center;
-        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 
-    .image-area img {
-        max-width: 400px;
-        height: auto;
+    input[type="text"],
+    input[type="email"] {
+        padding: 10px;
+        border: none;
+        border-bottom: 3px solid #dff000;
+        width: 250px;
+        font-size: 1em;
+        background: transparent;
+        outline: none;
     }
 
-    .top-image {
-        display: none;
+    button {
+        background-color: #dff000;
+        color: #000;
+        border: none;
+        padding: 10px 25px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: 0.3s ease;
     }
-}
+
+    button:hover {
+        background-color: #c6d300;
+    }
+
+    .form-section {
+        background: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
