@@ -2,71 +2,60 @@
 <html lang="he" dir="rtl">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>פוריקט הראשון</title>
-    <link rel="stylesheet" href="/profile project/project.css">
-    <link rel="icon" type="image" href="/img/woman.png">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>פרויקט ראשון</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="icon" type="image/png" href="/img/woman.png" />
 </head>
 
-    <body>
-        <title> פוריקט הראשון</title>
+<body>
 
-        <header class="part1">
+    <header class="part1">
+        <label for="menu-toggle" class="menu-toggle">&#x2630;</label>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <nav class="menu">
+            <a href="#">ראשי</a>
+            <a href="#about">אודות</a>
+            <a href="#projects">עבודות</a>
+            <a href="#contact">צור קשר</a>
+        </nav>
+        <div class="logo">
+            <span>sally gbara</span>
+            <a href="/index.html">
+                <img src="/img/woman.png" alt="תמונת פרופיל" />
+            </a>
+        </div>
+    </header>
 
-      <label for="menu-toggle" class="menu-toggle">&#x2630;</label>
+    <section class="continer1">
+        <h1>הפרויקט על מדינת ישראל</h1>
+        <p>
+            הפרויקט הראשון עוסק במדינת ישראל. לקוחות יקרים, זו הקדמה <br />
+            קצרה על מדינת ישראל – מדובר על בתי מלון, מקומות בילוי, פארקים ומסעדות.
+        </p>
+        <div class="buttons">
+            <a href="/project1/index1.html" class="btn">לצפייה בפרויקט</a>
+            <a href="project1.zip" class="btn secondary">הורדת הפרויקט</a>
+        </div>
+    </section>
 
-            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
-            <nav class="menu">
-                <a href="#">ראשי</a>
-                <a href="#about">אודות</a>
-                <a href="#projects">עבודות</a>
-                <a href="#contact">צור קשר</a>
+    <section class="icons">
+        <img src="/img/html.png" alt="HTML" />
+        <img src="/img/css.png" alt="CSS" />
+        <img src="/img/social.png" alt="Git" />
+    </section>
 
-            </nav>
-            <div class="logo"><span style="gap: 200px;">sally gbara</span>
-                <a href="/index.html">
-                <img src="/img/woman.png" alt="my profile image"></a>
-            </div>
+    <section class="center-image">
+        <img src="/img/project1.png" alt="תמונה מרכזית" />
+    </section>
 
+    <footer class="footer">
+        <div class="footer-content">
+            <span>כל הזכויות שמורות ©</span>
+        </div>
+    </footer>
 
-        </header>
-
-        <section class="continer1">
-            <div >
-
-
-                <h1>  הפרויקט על מדינה ישראל</h1>
-                <p>פוריקט הראשון מדובר על מדינה ישראל לקוחות יקרים זות הקדמה <br> קטנה על מדינה ישראל מדובר על פוריקט הזה על
-                    ביתי מלון
-                    מקומות פארק גם מסעדות </p>
-                <div class="buttons">
-                    <a href="/project1/index1.html" class="btn">לצפייה בפרויקט</a>
-                    <a href="project1.zip" class="btn secondary">הורדת פוריקט</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="icons">
-            <img src="/img/html.png" alt="HTML">
-            <img src="/img/css.png" alt="CSS">
-            <img src="/img/social.png" alt="git">
-        </section>
-
-        <section class="content">
-            <a href="/project1/index1.html" target="_blank">
-                <img src="/img/project1.png" alt="form" class="form-image"></a>
-        </section>
-
-        <footer class="footer">
-            <div class="footer-content">
-                <span>כל הזכויות שמורות ©</span>
-            </div>
-        </footer>
-
-
-    </body>
+</body>
 
 </html>
