@@ -1,4 +1,3 @@
-/* איפוס בסיסי */
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +39,7 @@ body {
 
 a:hover {
     border-radius: 30px;
+    color: yellow;
 }
 
 .menu-toggle {
