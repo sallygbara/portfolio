@@ -17,8 +17,8 @@
 📁 `page6/` - 6מדובר על תיק של פוריקט 
 📁 `page7/` - 7מדובר על תיק של פוריקט 
 📁 `page8/` - 8מדובר על תיק של פוריקט 
+📁`project.css/`-תקיה עיצוב של תקיות של פריקטים 
 
-📁 `project.css/`-זות תקייה עיצוב
 
 📁`project1.zip/`:הקובץ לגבי הורדת פוריקט
 📁 `project2.zip/`:הקובץ לגבי הורדת פוריקט
@@ -31,7 +31,7 @@
 
 
 📁 `project1/` -css ושני html פוריקט הראשון מדובר מידע  לקחת על מדינה ישראל גם מורכב שתי תקיות אחד
-📁 `project2/` -   css ושני html פוריקט השנימדובר מידע לקחת על מדינה גם מורכב שתי תקיות אחד 
+📁 `project2/` -   css ושני html פוריקט השנימדובר מידע לקחת על מדינה אמירקה גם מורכב שתי תקיות אחד 
 📁 `project3/` -   css ושני html פוריקט השלישימדובר מידע לקחת על מדינה בריטניה גם מורכב משתי תקיות 
 📁 `project4/` -  css ושני html  פוריקט הרביעי מדובר מידע לקחת על מדינה צרפת גם מורכב משתי תקיות  
 📁 `project5/` - css ושני html פוריקט חמישי מדובר  מידע  לקחת על מדינה סינגפור גם מורכב משתי תקיות 
