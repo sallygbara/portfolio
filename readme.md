@@ -57,4 +57,4 @@
 
 1. הורד את הקבצים או שכפל את הריפוזיטורי:
    ```bash
-   git clone https://github.com/your-username/portfolio-html-css.git
+   git clone https://github.com/sallygbara/portfolio
